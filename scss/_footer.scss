@@ -1,0 +1,17 @@
+%example {
+    color:brown;
+    font-size: 100px;
+    position: relative;
+    background-color: yellow;
+}
+
+@mixin font ($size,$color) {
+    font-size: $size;
+    color: $color;
+}
+
+footer{
+  &:hover{
+      @include font(100px,yellow )
+  }
+    }

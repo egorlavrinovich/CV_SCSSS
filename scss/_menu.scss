@@ -1,0 +1,48 @@
+p   {
+	margin:5px 0 0 35%;
+	}
+select.spisok{
+	list-style-image: url(../img/24.ico);
+	list-style: none;
+	list-style-type: none;
+}
+.place{
+	height: 200px;
+	width: 200px;
+
+}
+.photo1{
+	margin: 50px 0 0 46%; 
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+
+
+body{
+	background: url('../img/11.png');
+	max-width: 100%;
+	position: relative;
+}
+
+.photo p{
+	margin: 10px 0 0 43.5%;
+	font-size: 18px;
+	font-weight: 450;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.information{
+	margin: 1% 10% 2% 0;
+	font-size: 18px;
+	font-weight: 450;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.information img:hover{
+	cursor: pointer;
+	}
+
+.red {
+	color: red;
+}
